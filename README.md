@@ -5,3 +5,11 @@
 Nome: Yuri Marques Barboza
 
 Curso: Engenharia Eletrônica
+
+## Jogo: Turn-based RPG/Rogue-like game
+
+### Descrição:
+
+Nesse projeto a ideia é criar um jogo com combate em turno estilo RPG.
+
+### Regras:

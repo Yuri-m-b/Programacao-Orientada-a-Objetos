@@ -10,6 +10,8 @@ Curso: Engenharia Eletrônica
 
 ## Jogo: Turn-based RPG/Rogue-like game
 
+![Fonte: Tibia login screen 7.8](https://imgur.com/aRaXPou)
+
 ### Descrição:
 
 Nesse projeto a ideia é criar um jogo com combate em turno estilo RPG. O jogo terá inicialmente um inimigo e o personagem do jogador. O objetivo do jogo é derrotar o inimigo antes que ele derrote o player. O combate será feito em turnos onde em cada turno apenas um lado poderá atacar. O jogador e o inimigo terão um valor de vida fixo e seus valores de dano para o ataque serão gerados randomicamente.

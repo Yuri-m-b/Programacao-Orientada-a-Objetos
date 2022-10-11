@@ -10,7 +10,8 @@ Curso: Engenharia Eletrônica
 
 ## Jogo: Turn-based RPG/Rogue-like game
 
-![Fonte: Tibia login screen 7.8](https://imgur.com/aRaXPou)
+![Fonte: Tibia login screen 7.8](https://i.imgur.com/aRaXPou.png)
+Fonte: Tibia - Login screen - 7.8v
 
 ### Descrição:
 

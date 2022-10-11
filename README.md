@@ -10,6 +10,10 @@ Curso: Engenharia Eletrônica
 
 ### Descrição:
 
-Nesse projeto a ideia é criar um jogo com combate em turno estilo RPG.
+Nesse projeto a ideia é criar um jogo com combate em turno estilo RPG. O jogo terá inicialmente um inimigo e o personagem do jogador. O objetivo do jogo é derrotar o inimigo antes que ele derrote o player. O combate será feito em turnos onde em cada turno apenas um lado poderá atacar. O jogador e o inimigo terão um valor de vida fixo e seus valores de dano para o ataque serão gerados randomicamente.
 
 ### Regras:
+
+- Combate por turno, onde apenas um lado poderá atacar o outro.
+- Ganha o jogador que conseguir derrotar o inimigo sem seus pontos de vida irem a 0.
+- Dano dos ataques serão gerados randomicamente.

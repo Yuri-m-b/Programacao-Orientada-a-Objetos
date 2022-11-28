@@ -3,11 +3,14 @@
 
 class Attack;
 
+#include <QObject>
 #include "weapon.h"
 #include "shield.h"
 
-class Character
-{
+class Character: public QObject
+{   
+    Q_OBJECT
+
 public:
     Character(int l, int lvl, int atk){
          life = l;
@@ -22,6 +25,10 @@ public:
 
     int getLevel(){
         return level;
+    }
+
+    int getLastDamage(){
+        return lastDamage;
     }
 
     int attackSkill(){
@@ -40,12 +47,17 @@ public:
     void setWeapon(Weapon * w) { _weapon = w; }
     void setShield(Shield * s) { _shield = s; }
 
+signals:
+    void levelChanged(int level);
+    void lifeChanged(int life);
 
 private:
     int life;
     int atq_skill;
     int def_skill;
     int level;
+
+    int lastDamage;
 
     Weapon * _weapon;
     Shield * _shield;

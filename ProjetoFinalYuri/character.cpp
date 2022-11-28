@@ -7,11 +7,14 @@ void Character::attack(Character * opponent){
 }
 
 void Character::defend(Attack * att) {
-    int damage = att->getDamage();
+    lastDamage = att->getDamage();
     if(_shield){
-        damage = _shield->protect(damage);
+        lastDamage = _shield->protect(lastDamage);
     }
 
-    life -= damage;
+    life -= lastDamage;
+    if(life < 0) life = 0;
+    emit lifeChanged(life);
 }
+
 

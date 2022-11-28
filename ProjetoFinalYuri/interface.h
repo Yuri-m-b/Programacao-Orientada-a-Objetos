@@ -17,17 +17,36 @@ public slots:
 
 
 private:
+    QPushButton *button_atq;
+    QPushButton *button_def;
+
     QTextEdit *consoleTxt;
+    QLabel *endingTxt;
     QHBoxLayout *mainUI;
 
     QHBoxLayout *gameWindow;
-    QHBoxLayout *buttonBox;
+    QHBoxLayout *enemyHUD;
+    QHBoxLayout *playerHUD;
 
     QVBoxLayout *skillsTab;
     QHBoxLayout *levelSkillsTab;
 
     QVBoxLayout *buttonsTab;
+    QHBoxLayout *buttonBox;
+
     QVBoxLayout *equipmentTab;
+    QHBoxLayout *equipmentTop;
+    QHBoxLayout *equipmentMid;
+    QHBoxLayout *equipmentBot;
+    QPushButton *btn_necklace;
+    QPushButton *btn_helmet;
+    QPushButton *btn_backpack;
+    QPushButton *btn_leftHand;
+    QPushButton *btn_armor;
+    QPushButton *btn_rightHand;
+    QPushButton *btn_ring;
+    QPushButton *btn_boots;
+    QPushButton *btn_utility;
 
     QPixmap *skills;
 

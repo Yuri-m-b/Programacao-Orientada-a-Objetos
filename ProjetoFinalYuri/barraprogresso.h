@@ -7,8 +7,7 @@ class barraProgresso : public QWidget
 {
     Q_OBJECT
 public:
-    explicit barraProgresso(int min_value, int max_value, QWidget *parent = nullptr);
-
+    explicit barraProgresso(int min_value, int max_value, int bar_type, QWidget *parent = nullptr);
 signals:
 
 public slots:
@@ -16,6 +15,7 @@ public slots:
 private:
     int _valueMin;
     int _valueMax;
+    int _barType;
     QProgressBar barraProg;
     QHBoxLayout _frameBar;
 };

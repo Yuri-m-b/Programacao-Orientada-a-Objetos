@@ -9,9 +9,10 @@ class Attack;
 class Character
 {
 public:
-    Character(int l, int lvl){
+    Character(int l, int lvl, int atk){
          life = l;
          level = lvl;
+         atq_skill = atk;
          _weapon = nullptr;
     }
 
@@ -24,7 +25,7 @@ public:
     }
 
     int attackSkill(){
-        return 1;
+        return atq_skill;
     }
 
     int defenseSkill(){

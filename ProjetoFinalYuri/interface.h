@@ -48,6 +48,17 @@ private:
     QPushButton *btn_boots;
     QPushButton *btn_utility;
 
+    QHBoxLayout *backpackTab;
+    QHBoxLayout *backpackLine2;
+    QPushButton *backpackSlot1;
+    QPushButton *backpackSlot2;
+    QPushButton *backpackSlot3;
+    QPushButton *backpackSlot4;
+    QPushButton *backpackSlot5;
+    QPushButton *backpackSlot6;
+    QPushButton *backpackSlot7;
+    QPushButton *backpackSlot8;
+
     QPixmap *skills;
 
     Character * _player;

@@ -6,17 +6,20 @@ class Attack;
 #include <QObject>
 #include "weapon.h"
 #include "shield.h"
+using namespace std;
 
 class Character: public QObject
 {   
     Q_OBJECT
 
 public:
-    Character(int l, int lvl, int atk){
+    Character(int l, int lvl, int atk , QString name , QString sprite){
          life = l;
          level = lvl;
          atq_skill = atk;
          _weapon = nullptr;
+         _name = name;
+         _sprite = sprite;
     }
 
     int getLifeLevel(){
@@ -39,6 +42,14 @@ public:
         return 1;
     }
 
+    QString sprite(){
+        return _sprite;
+    }
+
+    QString name(){
+        return _name;
+    }
+
 
     void attack(Character * opponent);
     void defend(Attack * att);
@@ -46,6 +57,7 @@ public:
 
     void setWeapon(Weapon * w) { _weapon = w; }
     void setShield(Shield * s) { _shield = s; }
+
 
 signals:
     void levelChanged(int level);
@@ -59,8 +71,14 @@ private:
 
     int lastDamage;
 
+    QString _name;
+    QString _sprite;
+
     Weapon * _weapon;
     Shield * _shield;
+
 };
+
+
 
 #endif // CHARACTER_H

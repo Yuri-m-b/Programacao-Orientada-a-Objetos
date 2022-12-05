@@ -63,6 +63,13 @@ private:
 
     Character * _player;
     Character * _enemy;
+    string _enemySprite;
+
+    int monster_id;
+
+    vector<Character*> _monster;
+
+
 };
 
 #endif // INTERFACE_H

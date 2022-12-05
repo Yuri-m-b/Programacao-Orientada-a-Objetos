@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Itens/aol.png</file>
+        <file>Itens/boh.png</file>
+        <file>Itens/bp_poi.png</file>
+        <file>Itens/demon_helmet.png</file>
+        <file>Itens/Fire_Sword.gif</file>
+        <file>Itens/frozen.png</file>
+        <file>Itens/gold_ring.png</file>
+        <file>Itens/goldenLegs.png</file>
+        <file>Itens/mms.png</file>
+        <file>Itens/mpa.png</file>
+        <file>Monsters/Rat.png</file>
+        <file>Outfit/Mage_Male_Full.png</file>
+        <file>Background.png</file>
+        <file>layout da janela.jpg</file>
+        <file>Skills.png</file>
+    </qresource>
+</RCC>

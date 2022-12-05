@@ -18,3 +18,4 @@ private:
 };
 
 #endif // ATTACK_H
+

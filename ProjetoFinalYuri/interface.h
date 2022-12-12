@@ -14,6 +14,11 @@ public:
 
 public slots:
     void duel();
+    void healingPOT();
+    void healingUH();
+    void manaPOT();
+    void bigmanaPOT();
+    void exura();
 
 
 private:
@@ -59,6 +64,8 @@ private:
     QPushButton *backpackSlot7;
     QPushButton *backpackSlot8;
 
+    QPushButton *button_exura;
+
     QPixmap *skills;
 
     Character * _player;
@@ -66,10 +73,14 @@ private:
     string _enemySprite;
 
     int monster_id;
+    int qtd_HpPot;
+    int qtd_UH;
+    int qtd_manaPot;
+    int qtd_bigmanaPot;
 
     vector<Character*> _monster;
 
-
+    QLabel *enemy_sprite;
 };
 
 #endif // INTERFACE_H

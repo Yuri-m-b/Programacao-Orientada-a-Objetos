@@ -15,5 +15,21 @@
         <file>Background.png</file>
         <file>layout da janela.jpg</file>
         <file>Skills.png</file>
+        <file>Monsters/Dragon.png</file>
+        <file>Monsters/Hydra.png</file>
+        <file>Monsters/Orc.png</file>
+        <file>Monsters/Troll.png</file>
+        <file>Monsters/Demon.png</file>
+        <file>Itens/hp_pot.png</file>
+        <file>Itens/rune_uh.png</file>
+        <file>Outfit/Duke.png</file>
+        <file>Outfit/Knight.png</file>
+        <file>Outfit/Slayer.png</file>
+        <file>Itens/canivete.png</file>
+        <file>Itens/rune_explo.png</file>
+        <file>Itens/big_manapot.png</file>
+        <file>Itens/coin.png</file>
+        <file>Itens/mana_pot.png</file>
+        <file>Itens/f_hat.png</file>
     </qresource>
 </RCC>

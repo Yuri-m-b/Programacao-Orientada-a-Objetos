@@ -13,17 +13,23 @@ class Character: public QObject
     Q_OBJECT
 
 public:
-    Character(int l, int lvl, int atk , QString name , QString sprite){
+    Character(int l, int m, int lvl, int atk , QString name , QString sprite){
          life = l;
+         mana = m;
          level = lvl;
          atq_skill = atk;
          _weapon = nullptr;
+         _shield = nullptr;
          _name = name;
          _sprite = sprite;
     }
 
     int getLifeLevel(){
         return life;
+    }
+
+    int getMana(){
+        return mana;
     }
 
     int getLevel(){
@@ -54,6 +60,13 @@ public:
     void attack(Character * opponent);
     void defend(Attack * att);
     void dmg();
+    void newGamePlayer();
+    void newGameEnemy();
+    void healPOT();
+    void healUH();
+    void manaPot();
+    void bigmanaPot();
+    void magia_Exura();
 
     void setWeapon(Weapon * w) { _weapon = w; }
     void setShield(Shield * s) { _shield = s; }
@@ -62,12 +75,14 @@ public:
 signals:
     void levelChanged(int level);
     void lifeChanged(int life);
+    void manaChanged(int mana);
 
 private:
     int life;
     int atq_skill;
     int def_skill;
     int level;
+    int mana;
 
     int lastDamage;
 

@@ -1,6 +1,6 @@
 # PRG22107 - Instituto Federal de Santa Catarina (IFSC)
 
-## Repositório de atividades práticas da matéria de Programação Orientada a Objetos
+Repositório de atividades práticas da matéria de Programação Orientada a Objetos
 
 Nome: Yuri Marques Barboza
 
